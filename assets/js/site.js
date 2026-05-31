@@ -136,6 +136,7 @@
 
   // ---------- Премиальный курсор (только мышь) ----------
   if (matchMedia("(pointer:fine)").matches) {
+    document.body.classList.add("has-cursor");
     const dot = document.createElement("div");
     dot.className = "cursor";
     document.body.appendChild(dot);
