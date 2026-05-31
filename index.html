@@ -3,41 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#e4002b" />
-  <title>Диво Остров — парк аттракционов в Санкт-Петербурге</title>
-  <meta name="description" content="Диво Остров — крупнейший парк аттракционов Санкт-Петербурга на Крестовском острове. 46 аттракционов для всей семьи: экстремальные, семейные и детские. Вход свободный." />
+  <meta name="theme-color" content="#d81f2a" />
+  <title>Диво Остров — парк аттракционов · Санкт-Петербург</title>
+  <meta name="description" content="Диво Остров — крупнейший парк аттракционов Санкт-Петербурга на Крестовском острове. 46 аттракционов: экстремальные, семейные и детские. Вход свободный." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%A1%3C/text%3E%3C/svg%3E" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%23d81f2a'/%3E%3Ctext x='50' y='72' font-family='Arial' font-weight='bold' font-size='64' fill='white' text-anchor='middle'%3E%D0%94%3C/text%3E%3C/svg%3E" />
 </head>
 <body>
-  <!-- Декоративный фон -->
-  <div class="aurora" aria-hidden="true">
-    <span class="blob blob--1"></span>
-    <span class="blob blob--2"></span>
-    <span class="blob blob--3"></span>
-  </div>
-
   <!-- Шапка -->
   <header class="nav" id="nav">
     <div class="container nav__inner">
-      <a href="#hero" class="brand" aria-label="Диво Остров — на главную">
-        <span class="brand__icon">🎡</span>
-        <span class="brand__text">Диво<span>Остров</span></span>
+      <a href="#top" class="brand" aria-label="Диво Остров — на главную">
+        <span class="brand__mark">Д</span>
+        <span class="brand__name">Диво&nbsp;Остров</span>
       </a>
 
-      <nav class="nav__links" id="navLinks" aria-label="Основная навигация">
+      <nav class="nav__links" id="navLinks" aria-label="Навигация">
         <a href="#attractions">Аттракционы</a>
         <a href="#prices">Цены</a>
         <a href="#bracelet">Браслет</a>
-        <a href="#visit">Как добраться</a>
-        <a href="#contacts">Контакты</a>
+        <a href="#visit">Контакты</a>
       </nav>
 
-      <a href="#prices" class="btn btn--primary nav__cta">Купить билеты</a>
+      <a href="#visit" class="nav__cta">Спланировать визит<i>→</i></a>
 
       <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -45,95 +37,97 @@
     </div>
   </header>
 
-  <main>
+  <main id="top">
     <!-- HERO -->
-    <section class="hero" id="hero">
-      <div class="container hero__inner">
-        <p class="hero__eyebrow">🌳 Крестовский остров · Санкт-Петербург</p>
-        <h1 class="hero__title">
-          Парк <span class="grad">Диво&nbsp;Остров</span><br />
-          где живут эмоции
-        </h1>
-        <p class="hero__lead">
-          Крупнейший парк аттракционов Северной столицы. 46 аттракционов от ведущих
-          мировых производителей — от головокружительного экстрима до нежных детских каруселей.
-        </p>
-        <div class="hero__actions">
-          <a href="#attractions" class="btn btn--primary btn--lg">Выбрать аттракцион</a>
-          <a href="#visit" class="btn btn--ghost btn--lg">Как добраться →</a>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__meta">
+          <span>С.-Петербург</span>
+          <span>Крестовский остров</span>
+          <span>Осн. 2003</span>
         </div>
 
-        <ul class="hero__stats">
-          <li><b data-count="46">0</b><span>аттракционов</span></li>
-          <li><b data-count="80">0</b><span>метров высота</span></li>
-          <li><b>0&nbsp;₽</b><span>вход в парк</span></li>
-        </ul>
+        <h1 class="hero__title">
+          <span class="hero__pre">Парк аттракционов</span>
+          <span class="hero__big">Диво</span>
+          <span class="hero__big hero__big--red">Остров</span>
+        </h1>
+
+        <div class="hero__foot">
+          <p class="hero__lead">
+            Крупнейший парк аттракционов Северной столицы. Сорок шесть аттракционов
+            от ведущих мировых производителей — от предельного экстрима до детских каруселей.
+          </p>
+          <a href="#attractions" class="hero__link">Смотреть аттракционы <i>↓</i></a>
+        </div>
       </div>
-      <a href="#about" class="hero__scroll" aria-label="Листать вниз"><span></span></a>
     </section>
 
-    <div class="ribbon" aria-hidden="true"></div>
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>46 аттракционов</span><b>✶</b><span>вход свободный</span><b>✶</b>
+        <span>экстрим · семья · дети</span><b>✶</b><span>высота 80 метров</span><b>✶</b>
+        <span>46 аттракционов</span><b>✶</b><span>вход свободный</span><b>✶</b>
+        <span>экстрим · семья · дети</span><b>✶</b><span>высота 80 метров</span><b>✶</b>
+      </div>
+    </div>
 
     <!-- ABOUT -->
     <section class="section about" id="about">
       <div class="container about__grid">
-        <div class="reveal">
-          <p class="kicker">О парке</p>
+        <div class="about__lead reveal">
+          <p class="label">[ О парке ]</p>
           <h2 class="h2">Целый остров приключений посреди города</h2>
-          <p class="muted">
+        </div>
+        <div class="about__body reveal">
+          <p>
             «Диво Остров» расположен в Приморском парке Победы на Крестовском острове —
-            в одном из самых зелёных и чистых районов Петербурга. Здесь, среди вековых деревьев
-            и каналов, собраны аттракционы на любой возраст и характер.
+            в одном из самых зелёных районов Петербурга. Среди вековых деревьев и каналов
+            собраны аттракционы на любой возраст и характер.
           </p>
-          <p class="muted">
-            Приходите большой компанией или всей семьёй: вход на территорию парка
-            всегда свободный, а платить нужно только за катания.
+          <p>
+            Вход на территорию всегда свободный — платить нужно только за катания.
           </p>
-          <div class="chips">
-            <span class="chip">🎟 Свободный вход</span>
-            <span class="chip">👨‍👩‍👧‍👦 Для всей семьи</span>
-            <span class="chip">🌐 Мировые производители</span>
-            <span class="chip">🍔 Кафе и фудкорты</span>
-          </div>
         </div>
+      </div>
 
-        <div class="about__cards">
-          <article class="feature reveal">
-            <span class="feature__icon">🎢</span>
-            <h3>Экстрим</h3>
-            <p>Катапульта, Бустер, Ракета и американские горки — для тех, кто ищет адреналин.</p>
-          </article>
-          <article class="feature reveal">
-            <span class="feature__icon">🎠</span>
-            <h3>Семья</h3>
-            <p>Колесо обозрения, автодром, катамараны — впечатления, которые делятся на всех.</p>
-          </article>
-          <article class="feature reveal">
-            <span class="feature__icon">🧸</span>
-            <h3>Дети</h3>
-            <p>Карусели, батуты и детский картинг для самых маленьких гостей острова.</p>
-          </article>
-        </div>
+      <div class="container facts">
+        <article class="fact reveal">
+          <span class="fact__num">01</span>
+          <h3>Экстрим</h3>
+          <p>Катапульта, Бустер, Ракета и американские горки — для охотников за адреналином.</p>
+        </article>
+        <article class="fact reveal">
+          <span class="fact__num">02</span>
+          <h3>Семья</h3>
+          <p>Колесо обозрения, автодром, катамараны — впечатления, которые делятся на всех.</p>
+        </article>
+        <article class="fact reveal">
+          <span class="fact__num">03</span>
+          <h3>Дети</h3>
+          <p>Карусели, батуты и детский картинг для самых маленьких гостей острова.</p>
+        </article>
       </div>
     </section>
 
     <!-- ATTRACTIONS -->
     <section class="section attractions" id="attractions">
       <div class="container">
-        <div class="section__head reveal">
-          <p class="kicker">Аттракционы</p>
-          <h2 class="h2">Выбери своё приключение</h2>
-          <p class="muted section__sub">46 аттракционов разделены на три категории. Переключай вкладки и выбирай по настроению.</p>
+        <div class="attractions__head reveal">
+          <div>
+            <p class="label">[ Каталог ]</p>
+            <h2 class="h2">Аттракционы</h2>
+          </div>
+          <div class="tabs" id="tabs" role="tablist">
+            <button class="tab is-active" data-filter="all" role="tab">Все</button>
+            <button class="tab" data-filter="extreme" role="tab">Экстрим</button>
+            <button class="tab" data-filter="family" role="tab">Семейные</button>
+            <button class="tab" data-filter="kids" role="tab">Детские</button>
+          </div>
         </div>
 
-        <div class="tabs reveal" id="tabs" role="tablist">
-          <button class="tab is-active" data-filter="all" role="tab">Все</button>
-          <button class="tab" data-filter="extreme" role="tab">🎢 Экстрим</button>
-          <button class="tab" data-filter="family" role="tab">🎠 Семейные</button>
-          <button class="tab" data-filter="kids" role="tab">🧸 Детские</button>
-        </div>
-
-        <div class="cards" id="cards"><!-- карточки рендерятся из JS --></div>
+        <div class="rides" id="rides"><!-- строки рендерятся из JS --></div>
       </div>
     </section>
 
@@ -141,162 +135,116 @@
     <section class="section prices" id="prices">
       <div class="container">
         <div class="section__head reveal">
-          <p class="kicker">Цены</p>
+          <p class="label">[ Билеты ]</p>
           <h2 class="h2">Платишь только за катания</h2>
-          <p class="muted section__sub">Вход в парк бесплатный. Стоимость зависит от категории аттракциона.</p>
+          <p class="lead">Вход в парк бесплатный. Стоимость зависит от категории аттракциона.</p>
         </div>
 
-        <div class="price-grid">
-          <article class="price-card reveal">
-            <header class="price-card__top">
-              <span class="feature__icon">🧸</span>
-              <h3>Детские</h3>
-            </header>
-            <p class="price-card__range"><b>250</b>–600 ₽</p>
-            <ul class="ticks">
-              <li>Карусели и горки</li>
-              <li>Батуты</li>
-              <li>Детский картинг</li>
+        <div class="tickets">
+          <article class="ticket reveal">
+            <header class="ticket__top"><span class="ticket__cat">Детские</span><span class="ticket__no">№ 01</span></header>
+            <p class="ticket__price"><span>250</span>–600 ₽</p>
+            <ul class="ticket__list">
+              <li>Карусели и горки</li><li>Батуты</li><li>Детский картинг</li>
             </ul>
           </article>
-
-          <article class="price-card price-card--accent reveal">
-            <header class="price-card__top">
-              <span class="feature__icon">🎠</span>
-              <h3>Семейные</h3>
-            </header>
-            <p class="price-card__range"><b>450</b>–1500 ₽</p>
-            <ul class="ticks">
-              <li>Колесо обозрения</li>
-              <li>Автодром</li>
-              <li>Катамараны</li>
+          <article class="ticket ticket--red reveal">
+            <header class="ticket__top"><span class="ticket__cat">Семейные</span><span class="ticket__no">№ 02</span></header>
+            <p class="ticket__price"><span>450</span>–1500 ₽</p>
+            <ul class="ticket__list">
+              <li>Колесо обозрения</li><li>Автодром</li><li>Катамараны</li>
             </ul>
           </article>
-
-          <article class="price-card reveal">
-            <header class="price-card__top">
-              <span class="feature__icon">🎢</span>
-              <h3>Экстремальные</h3>
-            </header>
-            <p class="price-card__range"><b>400</b>–1850 ₽</p>
-            <ul class="ticks">
-              <li>Катапульта</li>
-              <li>Бустер и Ракета</li>
-              <li>Американские горки</li>
+          <article class="ticket reveal">
+            <header class="ticket__top"><span class="ticket__cat">Экстремальные</span><span class="ticket__no">№ 03</span></header>
+            <p class="ticket__price"><span>400</span>–1850 ₽</p>
+            <ul class="ticket__list">
+              <li>Катапульта</li><li>Бустер и Ракета</li><li>Американские горки</li>
             </ul>
           </article>
         </div>
-        <p class="note muted">Цены ориентировочные и могут меняться. Точную стоимость уточняйте в кассах парка.</p>
+        <p class="note">Цены ориентировочные и могут меняться. Точную стоимость уточняйте в кассах парка.</p>
       </div>
     </section>
 
     <!-- BRACELET -->
     <section class="section bracelet" id="bracelet">
-      <div class="container bracelet__inner reveal">
-        <div class="bracelet__text">
-          <p class="kicker kicker--light">Безлимит</p>
-          <h2 class="h2">Браслет на весь день</h2>
-          <p>
-            Один браслет — и катайся без ограничений целый день на большинстве аттракционов парка.
-            Идеально для тех, кто хочет успеть всё.
+      <div class="container bracelet__grid reveal">
+        <div>
+          <p class="label label--light">[ Безлимит ]</p>
+          <h2 class="bracelet__h">Браслет<br />на весь день</h2>
+          <p class="bracelet__text">
+            Один браслет — и катаешься без ограничений целый день на большинстве аттракционов.
+            Исключения: Катапульта, Бустер, Ракета и катамараны.
           </p>
-          <ul class="ticks ticks--light">
-            <li>Безлимитные катания весь день</li>
-            <li>Действует на большинстве аттракционов</li>
-            <li>Исключения: Катапульта, Бустер, Ракета и катамараны</li>
-          </ul>
         </div>
-        <div class="bracelet__price">
+        <div class="bracelet__stub">
           <span class="bracelet__from">от</span>
-          <span class="bracelet__num">7000</span>
-          <span class="bracelet__cur">₽ / день</span>
-          <a href="#visit" class="btn btn--primary btn--lg">Где купить</a>
+          <span class="bracelet__num">7000<small>₽</small></span>
+          <span class="bracelet__day">за день катаний</span>
+          <a href="#visit" class="hero__link hero__link--dark">Где купить <i>→</i></a>
         </div>
       </div>
     </section>
 
     <!-- VISIT -->
     <section class="section visit" id="visit">
-      <div class="container visit__grid">
-        <div class="reveal">
-          <p class="kicker">Как добраться</p>
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="label">[ Как добраться ]</p>
           <h2 class="h2">Ждём вас на острове</h2>
-
-          <ul class="info">
-            <li>
-              <span class="info__ic">📍</span>
-              <div><b>Адрес</b><p class="muted">Санкт-Петербург, Кемская ул., 1, Крестовский остров</p></div>
-            </li>
-            <li>
-              <span class="info__ic">🚇</span>
-              <div><b>Метро</b><p class="muted">Станция «Крестовский остров» — несколько минут пешком</p></div>
-            </li>
-            <li>
-              <span class="info__ic">🕦</span>
-              <div>
-                <b>Режим работы</b>
-                <p class="muted">Будни: 11:00 – 21:00 · Выходные: 11:00 – 22:00<br />Экстремальные аттракционы открываются на час позже. Зимой парк закрыт.</p>
-              </div>
-            </li>
-            <li>
-              <span class="info__ic">🎟</span>
-              <div><b>Вход</b><p class="muted">Свободный — платите только за аттракционы</p></div>
-            </li>
-          </ul>
-
-          <a class="btn btn--ghost" href="https://yandex.ru/maps/?text=Диво+Остров+Кемская+1+Санкт-Петербург" target="_blank" rel="noopener">Открыть в Яндекс.Картах →</a>
         </div>
-
-        <div class="visit__map reveal">
-          <iframe
-            title="Карта — Диво Остров"
-            src="https://yandex.ru/map-widget/v1/?text=Диво%20Остров%20Кемская%201%20Санкт-Петербург&z=15"
-            width="100%" height="100%" frameborder="0" loading="lazy" allowfullscreen></iframe>
+        <div class="visit__grid">
+          <dl class="specs reveal">
+            <div><dt>Адрес</dt><dd>Санкт-Петербург, Кемская ул., 1<br />Крестовский остров</dd></div>
+            <div><dt>Метро</dt><dd>«Крестовский остров» — несколько минут пешком</dd></div>
+            <div><dt>Часы</dt><dd>Будни 11:00–21:00 · Выходные 11:00–22:00<br />Экстрим — на час позже. Зимой парк закрыт.</dd></div>
+            <div><dt>Вход</dt><dd>Свободный — оплата только за аттракционы</dd></div>
+            <div class="specs__cta">
+              <a class="hero__link" href="https://yandex.ru/maps/?text=Диво+Остров+Кемская+1+Санкт-Петербург" target="_blank" rel="noopener">Открыть в Яндекс.Картах <i>→</i></a>
+            </div>
+          </dl>
+          <div class="visit__map reveal">
+            <iframe
+              title="Карта — Диво Остров"
+              src="https://yandex.ru/map-widget/v1/?text=Диво%20Остров%20Кемская%201%20Санкт-Петербург&z=15"
+              width="100%" height="100%" frameborder="0" loading="lazy" allowfullscreen></iframe>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="section cta-band">
-      <div class="container cta-band__inner reveal">
-        <h2 class="h2">Готовы к приключениям?</h2>
-        <p class="muted">Собирайте друзей и семью — на острове хватит эмоций на всех.</p>
-        <a href="#attractions" class="btn btn--primary btn--lg">Смотреть аттракционы</a>
       </div>
     </section>
   </main>
 
-  <div class="ribbon" aria-hidden="true"></div>
-
   <!-- FOOTER -->
   <footer class="footer" id="contacts">
-    <div class="container footer__grid">
-      <div>
-        <a href="#hero" class="brand brand--footer">
-          <span class="brand__icon">🎡</span>
-          <span class="brand__text">Диво<span>Остров</span></span>
-        </a>
-        <p class="muted footer__about">Крупнейший парк аттракционов Санкт-Петербурга на Крестовском острове.</p>
+    <div class="container">
+      <div class="footer__cta">
+        <h2 class="footer__big">До встречи<br />на острове</h2>
+        <a href="#attractions" class="hero__link hero__link--light">Выбрать аттракцион <i>→</i></a>
       </div>
-
-      <nav class="footer__col" aria-label="Разделы">
-        <h4>Разделы</h4>
-        <a href="#attractions">Аттракционы</a>
-        <a href="#prices">Цены</a>
-        <a href="#bracelet">Браслет на день</a>
-        <a href="#visit">Как добраться</a>
-      </nav>
-
-      <div class="footer__col">
-        <h4>Контакты</h4>
-        <p class="muted">Кемская ул., 1<br />Санкт-Петербург</p>
-        <p class="muted">Ежедневно 11:00 – 22:00</p>
-        <a href="https://divo-ostrov.ru" target="_blank" rel="noopener">divo-ostrov.ru</a>
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="brand__mark">Д</span>
+          <p>Диво Остров — крупнейший парк аттракционов Санкт-Петербурга на Крестовском острове.</p>
+        </div>
+        <nav class="footer__col" aria-label="Разделы">
+          <h4>Разделы</h4>
+          <a href="#attractions">Аттракционы</a>
+          <a href="#prices">Цены</a>
+          <a href="#bracelet">Браслет</a>
+          <a href="#visit">Как добраться</a>
+        </nav>
+        <div class="footer__col">
+          <h4>Контакты</h4>
+          <p>Кемская ул., 1, Санкт-Петербург</p>
+          <p>Ежедневно 11:00 – 22:00</p>
+          <a href="https://divo-ostrov.ru" target="_blank" rel="noopener">divo-ostrov.ru</a>
+        </div>
       </div>
-    </div>
-    <div class="container footer__bottom">
-      <p class="muted">© <span id="year">2026</span> Диво Остров. Демо-сайт парка аттракционов.</p>
-      <p class="muted">Сделано с ❤️ для любителей острых ощущений</p>
+      <div class="footer__bottom">
+        <span>© <span id="year">2026</span> Диво Остров</span>
+        <span>Демо-сайт парка аттракционов</span>
+      </div>
     </div>
   </footer>
 
