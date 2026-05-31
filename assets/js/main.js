@@ -6,7 +6,7 @@ const ATTRACTIONS = [
     emoji: "🚀",
     desc: "Молниеносный взлёт на 80 метров за 4 секунды, свободное падение и вращение. Самый острый адреналин парка.",
     meta: ["80 м", "4 сек"],
-    grad: "linear-gradient(150deg,#ff2d55,#8b1e9c)"
+    grad: "linear-gradient(150deg,#ff2e4d,#b3001f)"
   },
   {
     name: "Бустер",
@@ -14,7 +14,7 @@ const ATTRACTIONS = [
     emoji: "🎢",
     desc: "Легендарный аттракцион и, пожалуй, самый страшный на острове: эмоции на высоте 50 метров над землёй.",
     meta: ["50 м", "18+"],
-    grad: "linear-gradient(150deg,#7b2ff7,#f107a3)"
+    grad: "linear-gradient(150deg,#e4002b,#7a0016)"
   },
   {
     name: "Ракета",
@@ -22,7 +22,7 @@ const ATTRACTIONS = [
     emoji: "☄️",
     desc: "Стремительные виражи и перегрузки, от которых захватывает дух. Для настоящих любителей скорости.",
     meta: ["Скорость", "16+"],
-    grad: "linear-gradient(150deg,#ff512f,#dd2476)"
+    grad: "linear-gradient(150deg,#ff5640,#c20024)"
   },
   {
     name: "Американские горки",
@@ -30,7 +30,7 @@ const ATTRACTIONS = [
     emoji: "🎟",
     desc: "Классика больших парков: крутые подъёмы, петли и спуски на огромной скорости.",
     meta: ["Петли", "Хит"],
-    grad: "linear-gradient(150deg,#11998e,#38ef7d)"
+    grad: "linear-gradient(150deg,#ff3355,#a30020)"
   },
   {
     name: "Крылатые качели",
@@ -38,7 +38,7 @@ const ATTRACTIONS = [
     emoji: "🪂",
     desc: "Взрослые качели поднимают на высоту 25 метров и плавно раскачивают из стороны в сторону. Рост от 130 см.",
     meta: ["25 м", "130 см+"],
-    grad: "linear-gradient(150deg,#2193b0,#6dd5ed)"
+    grad: "linear-gradient(150deg,#ff6a3d,#d10030)"
   },
   {
     name: "Колесо обозрения",
@@ -46,7 +46,7 @@ const ATTRACTIONS = [
     emoji: "🎡",
     desc: "Панорама Крестовского острова, заливов и парка с высоты птичьего полёта. Романтика для всех возрастов.",
     meta: ["Панорама", "Для всех"],
-    grad: "linear-gradient(150deg,#4776e6,#8e54e9)"
+    grad: "linear-gradient(150deg,#ff4d6d,#c2002b)"
   },
   {
     name: "Автодром",
@@ -54,7 +54,7 @@ const ATTRACTIONS = [
     emoji: "🚗",
     desc: "Весёлые гонки на электромобилях с лёгкими столкновениями. Зарядитесь азартом всей компанией.",
     meta: ["Гонки", "Компания"],
-    grad: "linear-gradient(150deg,#f7971e,#ffd200)"
+    grad: "linear-gradient(150deg,#ff7a45,#e10030)"
   },
   {
     name: "Катамараны",
@@ -62,7 +62,7 @@ const ATTRACTIONS = [
     emoji: "🦢",
     desc: "Неспешная прогулка по водной глади парка. Спокойный отдых среди зелени и каналов острова.",
     meta: ["Вода", "Отдых"],
-    grad: "linear-gradient(150deg,#1cb5e0,#000851)"
+    grad: "linear-gradient(150deg,#ff5a8a,#c30033)"
   },
   {
     name: "Башня свободного падения",
@@ -70,7 +70,7 @@ const ATTRACTIONS = [
     emoji: "🗼",
     desc: "Плавный подъём вверх и захватывающий спуск. Лёгкий экстрим, доступный почти всей семье.",
     meta: ["Высота", "Семья"],
-    grad: "linear-gradient(150deg,#fc5c7d,#6a82fb)"
+    grad: "linear-gradient(150deg,#ff3d5e,#9e001c)"
   },
   {
     name: "Сказочный поезд",
@@ -78,7 +78,7 @@ const ATTRACTIONS = [
     emoji: "🚂",
     desc: "Уютное путешествие по парку для больших и маленьких. Идеальный старт знакомства с островом.",
     meta: ["Прогулка", "Для всех"],
-    grad: "linear-gradient(150deg,#00b09b,#96c93d)"
+    grad: "linear-gradient(150deg,#ff6f61,#d8002f)"
   },
   {
     name: "Детские карусели",
@@ -86,7 +86,7 @@ const ATTRACTIONS = [
     emoji: "🎠",
     desc: "Яркие лошадки, машинки и сказочные персонажи кружатся под весёлую музыку. Любимая классика малышей.",
     meta: ["3+", "Малыши"],
-    grad: "linear-gradient(150deg,#ff9a9e,#fecfef)"
+    grad: "linear-gradient(150deg,#ff7ea3,#e23a5e)"
   },
   {
     name: "Детский картинг",
@@ -94,7 +94,7 @@ const ATTRACTIONS = [
     emoji: "🏎️",
     desc: "Первые гонки юного водителя на безопасной трассе. Море восторга и настоящие эмоции скорости.",
     meta: ["Трасса", "5+"],
-    grad: "linear-gradient(150deg,#f83600,#fe8c00)"
+    grad: "linear-gradient(150deg,#ff8a5b,#e4002b)"
   },
   {
     name: "Батутный городок",
@@ -102,7 +102,7 @@ const ATTRACTIONS = [
     emoji: "🤸",
     desc: "Прыгай сколько хочешь! Надувные батуты и лабиринты, где энергия детей находит выход.",
     meta: ["Прыжки", "Городок"],
-    grad: "linear-gradient(150deg,#43cea2,#185a9d)"
+    grad: "linear-gradient(150deg,#ff6b8b,#d4002c)"
   },
   {
     name: "Паровозик с горкой",
@@ -110,7 +110,7 @@ const ATTRACTIONS = [
     emoji: "🐛",
     desc: "Маленькие американские горки для самых юных гостей — первый безопасный экстрим в их жизни.",
     meta: ["Мини-горки", "3+"],
-    grad: "linear-gradient(150deg,#ee9ca7,#ffdde1)"
+    grad: "linear-gradient(150deg,#ff9a8b,#e2335a)"
   },
   {
     name: "Чашки",
@@ -118,7 +118,7 @@ const ATTRACTIONS = [
     emoji: "🫖",
     desc: "Кружащиеся чашки, скорость которых вы задаёте сами. Весёлое головокружение для всей семьи.",
     meta: ["Вращение", "Семья"],
-    grad: "linear-gradient(150deg,#c471f5,#fa71cd)"
+    grad: "linear-gradient(150deg,#ff7ab0,#e02b66)"
   }
 ];
 
